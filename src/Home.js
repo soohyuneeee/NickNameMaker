@@ -4,7 +4,7 @@ import Maker from './Maker.js';
 
 function Home(){
     function next(){
-        <Maker/>
+        "/maker"//로 가야함
     }
     return(
         <div className='duv'>

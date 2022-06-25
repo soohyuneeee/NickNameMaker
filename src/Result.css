@@ -1,0 +1,82 @@
+.resul1{
+    width: 395px;
+height: 57px;
+left: calc(50% - 395px/2 - 480.5px);
+top: calc(50% - 57px/2 - 288.5px);
+
+font-family: 'Arsenal';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 60px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+border: 1px solid #FFFFFF;
+
+}
+.result2{
+    position: absolute;
+width: 881px;
+height: 92px;
+left: calc(50% - 881px/2 - 0.5px);
+top: calc(50% - 92px/2 + 13px);
+
+font-family: 'Arsenal';
+font-style: normal;
+font-weight: 400;
+font-size: 60px;
+line-height: 75px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+border: 1px solid #FFFFFF;
+
+}
+.bnt1{
+
+    position: absolute;
+width: 221px;
+height: 84px;
+left: 488px;
+top: 632px;
+font-family: 'Arsenal';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 35px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+background-color: #FFFFFF;
+
+}
+.bnt2{
+
+    position: absolute;
+width: 221px;
+height: 84px;
+left: 730px;
+top: 632px;
+
+background: #D9D9D9;
+border-radius: 10px;
+font-family: 'Arsenal';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 35px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+}
