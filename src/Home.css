@@ -1,0 +1,15 @@
+.duv{
+    position: relative;
+width: 1440px;
+height: 1024px;
+
+background: #000000;
+}
+.b1{
+    position: absolute;
+width: 547px;
+height: 110px;
+left: 446px;
+top: 391px;
+
+}
