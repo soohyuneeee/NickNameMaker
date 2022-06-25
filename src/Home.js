@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './Header.js';
 import Maker from './Maker.js';
+import './Home.css'
 
 function Home(){
     function next(){

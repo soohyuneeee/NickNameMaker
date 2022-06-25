@@ -1,18 +1,20 @@
 import React, { Component } from 'react';
-import { BrowserRouter, Route } from 'react-router-dom'; //React-Router import
-import Maker from './Maker';
-import Home from './Home';
-import Result from './Result';
+import { BrowserRouter as Router,Route,Routes} from 'react-router-dom'; //React-Router import
+import Maker from './Maker.js';
+import Home from './Home.js';
+import Result from './Result.js';
 
 class App extends Component {
   render() {
     return(
       <div>
-        <BrowserRouter>
-          <Route path="/" exact element={<Home/>}/>
+        <Router>
+        <Routes>
+          <Route path="/" exact={true} element={<Home/>}/>
           <Route path="/maker" element={<Maker/>}/>
           <Route path="/result" element={<Result/>}/>
-        </BrowserRouter>
+        </Routes>
+        </Router>
       </div>
       //화면이 안뜸 
     )
