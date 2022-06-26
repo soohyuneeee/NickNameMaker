@@ -1,47 +1,40 @@
 
-.duv{
-    width: 1700px;
-    height: 100%;
+.back2{
+    position: relative;
+width: 100vm;
+height: 100vh;
+
+background: #000000;
 }
 .text1{
     position: absolute;
-width: 708px;
-height: 57px;
-left: calc(50% - 708px/2 + 1px);
-top: calc(50% - 57px/2 - 169.5px);
-
-font-family: 'Arsenal';
-font-style: normal;
-font-weight: 400;
-font-size: 48px;
-line-height: 60px;
-display: flex;
-align-items: center;
-text-align: center;
-
-color: #FFFFFF;
-
-border: 1px solid #FFFFFF;
+    width: 708px;
+    height: 57px;
+    left: calc(50% - 708px/2 + 1px);
+    top: calc(50% - 57px/2 - 169.5px);
+    font-family: 'Arsenal';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
 }
 .text2{
     position: absolute;
-width: 660px;
-height: 57px;
-left: calc(50% - 660px/2);
-top: calc(50% - 57px/2 + 53.5px);
-
-font-family: 'Arsenal';
-font-style: normal;
-font-weight: 400;
-font-size: 48px;
-line-height: 60px;
-display: flex;
-align-items: center;
-text-align: center;
-
-color: #FFFFFF;
-
-border: 1px solid #FFFFFF;
+    width: 708px;
+    height: 57px;
+    font-family: 'Arsenal';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    left: calc(50% - 660px/2);
+    top: calc(50% - 57px/2 + 53.5px);
 }
 .name{
     position: absolute;
