@@ -1,9 +1,9 @@
 import React from "react";
 import Header from './Header.js'
 import { Link, useLocation } from "react-router-dom";
-import { BrowserRouter, Route,Routes } from 'react-router-dom';
-
+import { BrowserRouter, Route,Routes ,useNavigate } from 'react-router-dom';
 function Result(){
+    let navigate = useNavigate();
     const location = useLocation();
     const a = location.state.name;
     const b = location.state.locate;
@@ -23,10 +23,10 @@ function Result(){
             <div className="resul1">당신의 닉네임은...</div>
             <div className="result2">{getRandomIndex(vill.length)}</div>
             <button className="btn1" onClick={Copy}>복사하기</button>
-            <Link to="/home" className="btn2">홈으로</Link>
-            <Link to="/result" className='create' onClick={()=>{
-                alert(a);
-            }}>닉네임 생성하기</Link>
+            <button className='create' onClick={()=>{
+          navigate('/')
+        }}>홈으로</button>
+           
         </div>
     )
 }
