@@ -1,66 +1,67 @@
-.resul1{
-    width: 395px;
+.text3 {
+    width: 881px;
     height: 57px;
-    top: 88%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-
-font-family: 'Arsenal';
-font-style: normal;
-font-weight: 400;
-font-size: 48px;
-line-height: 60px;
-display: flex;
-align-items: center;
-text-align: center;
-
-color: #FFFFFF;
-
-border: 1px solid #FFFFFF;
-
-}
-.result2{
-    position: absolute;
-width: 881px;
-height: 92px;
-left: calc(50% - 881px/2 - 0.5px);
-top: calc(50% - 92px/2 + 13px);
-
-font-family: 'Arsenal';
-font-style: normal;
-font-weight: 400;
-font-size: 30px;
-line-height: 75px;
-display: flex;
-align-items: center;
-text-align: center;
-
-color: #FFFFFF;
-
-border: 1px solid #FFFFFF;
-
-}
-.btn1{
-
-    position: absolute;
-    width: 256px;
-    height: 60px;
-    top: 88%;
-    left: 30%;
-    transform: translate(-50%,-50%);
-    font-family: Georgia, "Malgun Gothic", serif;
+    left: calc(50% - 881px/2 - 0.5px);
+    font-family: 'Arsenal';
     font-style: normal;
-    font-style: unset;
-
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 60px;
+    display: inline-block;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0 auto;
+    margin-top: 10%;
 }
-.create{
+
+.nickName {
+    position: absolute;
+    width: 881px;
+    height: 92px;
+    left: calc(50% - 881px/2 - 0.5px);
+    top: calc(50% - 92px/2 + 13px);
+    font-family: 'Arsenal';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 75px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: black;
+    border: 1px solid #FFFFFF;
+    background-color: white;
+}
+
+.nickName span {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.btn1 {
+
     position: absolute;
     width: 256px;
     height: 60px;
     top: 78%;
-    left: 70%;
-    transform: translate(-50%,-50%);
+    left: 40%;
+    transform: translate(-50%, -50%);
     font-family: Georgia, "Malgun Gothic", serif;
     font-style: normal;
     font-style: unset;
+    font-size: 18px;
+
+}
+
+.goHome {
+    position: absolute;
+    width: 256px;
+    height: 60px;
+    top: 78%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    font-family: Georgia, "Malgun Gothic", serif;
+    font-style: normal;
+    font-style: unset;
+    font-size: 18px;
 }

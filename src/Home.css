@@ -1,16 +1,10 @@
-.duv{
-    position: relative;
-width: 100vw;
-height: 100vh;
-
-background: #000000;
+.haha {
+  text-align: center;
+  margin-top: 40vh;
 }
-.b1{
-    position: absolute;
-width:20vw;
-height: 10vh;
-top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
 
+.b1 {
+  width: 20vw;
+  height: 10vh;
+  font-size: 25px;
 }

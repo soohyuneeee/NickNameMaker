@@ -1,76 +1,71 @@
+body {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background: #000000;
+}
 
-body{
-    position: relative;
-width: 100vw;
-height: 100vh;
+.text1 {
+  position: absolute;
+  width: 708px;
+  height: 57px;
+  left: calc(50% - 708px/2 + 1px);
+  top: calc(50% - 57px/2 - 169.5px);
+  font-family: 'Arsenal';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 60px;
+  display: flex;
+  align-items: center;
+  color: white;
+}
 
-background: #000000;
+.text2 {
+  position: absolute;
+  width: 708px;
+  height: 57px;
+  font-family: 'Arsenal';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 60px;
+  display: flex;
+  align-items: center;
+  color: white;
+  left: calc(50% - 660px/2);
+  top: calc(50% - 57px/2 + 53.5px);
 }
-.text1{
-    position: absolute;
-    width: 708px;
-    height: 57px;
-    left: calc(50% - 708px/2 + 1px);
-    top: calc(50% - 57px/2 - 169.5px);
-    font-family: 'Arsenal';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 60px;
-    display: flex;
-    align-items: center;
-    color:white;
-}
-.text2{
-    position: absolute;
-    width: 708px;
-    height: 57px;
-    font-family: 'Arsenal';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 60px;
-    display: flex;
-    align-items: center;
-    color: white;
-    left: calc(50% - 660px/2);
-    top: calc(50% - 57px/2 + 53.5px);
-}
-.name{
-    position: absolute;
-width: 708px;
-height: 64px;
-top: 40%;
+
+.name {
+  position: absolute;
+  width: 708px;
+  height: 64px;
+  top: 40%;
   left: 50%;
-  transform: translate(-50%,-50%);
-
-
-background: #D9D9D9;
-}
-.locate{
-    position: absolute;
-width: 708px;
-height: 64px;
-top: 68%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-
-
-
-
-background: #D9D9D9;
+  transform: translate(-50%, -50%);
+  background: #D9D9D9;
 }
 
-.create{
-    position: absolute;
-width: 256px;
-height: 60px;
-top: 88%;
+.locate {
+  position: absolute;
+  width: 708px;
+  height: 64px;
+  top: 68%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
+  background: #D9D9D9;
+}
+
+.create {
+  position: absolute;
+  width: 256px;
+  height: 60px;
+  top: 88%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   font-family: Georgia, "Malgun Gothic", serif;
-    font-style: normal;
-  font-style:unset;
+  font-style: normal;
+  font-style: unset;
 
 }
-
