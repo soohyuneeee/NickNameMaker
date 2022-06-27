@@ -47,6 +47,7 @@ body {
 .name {
   position: absolute;
   border: none;
+  letter-spacing: 2.2px;
   border-radius: 5px;
   width: 708px;
   height: 64px;
@@ -61,6 +62,7 @@ body {
 .locate {
   position: absolute;
   border: none;
+  letter-spacing: 2.2px;
   border-radius: 5px;
   width: 708px;
   height: 64px;
