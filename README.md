@@ -8,6 +8,8 @@
 * [x] add css
 * [x] draw icon
 * [ ] copy to clipboard
+* [ ] alert for try to move on to the next page when non-text
+* [ ] text is so close with border
 <br>
 💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜
 <br>
