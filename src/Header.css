@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
 .icon {
     display: inline-block;
     width: 96px;
@@ -9,7 +11,7 @@
 h1 {
     display: inline-block;
     color: black;
-    font-family: 'Arsenal';
+    font-family: 'Roboto Mono', monospace;
     font-style: normal;
 }
 

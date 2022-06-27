@@ -6,7 +6,7 @@ function Home() {
     return (
         <section>
             <div className='haha'>
-                <button className='b1' onClick={() => {
+                <button class="nickname-btn" onClick={() => {
                     navigate('/maker')
                 }}>NICKNAME MAKER</button>
             </div>

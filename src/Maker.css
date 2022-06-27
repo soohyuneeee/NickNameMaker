@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'InfinitySans-RegularA1';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/InfinitySans-RegularA1.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   position: relative;
   width: 100vw;
@@ -11,10 +18,10 @@ body {
   height: 57px;
   left: calc(50% - 708px/2 + 1px);
   top: calc(50% - 57px/2 - 169.5px);
-  font-family: 'Arsenal';
+  font-family: 'InfinitySans-RegularA1';
   font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
+  font-weight: normal;
+  font-size: 23px;
   line-height: 60px;
   display: flex;
   align-items: center;
@@ -25,34 +32,42 @@ body {
   position: absolute;
   width: 708px;
   height: 57px;
-  font-family: 'Arsenal';
+  font-family: 'InfinitySans-RegularA1';
   font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
+  font-weight: normal;
+  font-size: 23px;
   line-height: 60px;
   display: flex;
   align-items: center;
   color: white;
-  left: calc(50% - 660px/2);
+  left: calc(50% - 708px/2 + 1px);
   top: calc(50% - 57px/2 + 53.5px);
 }
 
 .name {
   position: absolute;
+  border: none;
+  border-radius: 5px;
   width: 708px;
   height: 64px;
   top: 40%;
   left: 50%;
+  font-family: 'InfinitySans-RegularA1';
+  font-size: 18px;
   transform: translate(-50%, -50%);
   background: #D9D9D9;
 }
 
 .locate {
   position: absolute;
+  border: none;
+  border-radius: 5px;
   width: 708px;
   height: 64px;
   top: 68%;
   left: 50%;
+  font-size: 18px;
+  font-family: 'InfinitySans-RegularA1';
   transform: translate(-50%, -50%);
   background: #D9D9D9;
 }
@@ -64,8 +79,21 @@ body {
   top: 88%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-family: Georgia, "Malgun Gothic", serif;
+  font-family: 'InfinitySans-RegularA1';
   font-style: normal;
-  font-style: unset;
+  font-size: 15px;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 15px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.25s;
+  background-color: aliceblue;
+  color: #1e6b7b;
+}
 
+.create:hover {
+  letter-spacing: 2px;
+  cursor: pointer;
 }

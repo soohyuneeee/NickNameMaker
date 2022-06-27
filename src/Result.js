@@ -23,11 +23,12 @@ function Result() {
         <section>
             <div className="text3">당신의 닉네임은...</div>
             <div className="nickName"><span>{b} {getRandomIndex(keyword.length)} {a}</span></div>
-
+        <section className="btnzz">
             <button className="btn1" onClick={() => navigator.clipboard.writeText(this.state.text)}>복사하기</button>
             <button className='goHome' onClick={() => {
                 navigate('/')
             }}>홈으로</button>
+            </section>
 
         </section>
     )
