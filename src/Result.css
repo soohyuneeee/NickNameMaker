@@ -1,8 +1,9 @@
 .resul1{
     width: 395px;
-height: 57px;
-left: calc(50% - 395px/2 - 480.5px);
-top: calc(50% - 57px/2 - 288.5px);
+    height: 57px;
+    top: 88%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 
 font-family: 'Arsenal';
 font-style: normal;
@@ -28,7 +29,7 @@ top: calc(50% - 92px/2 + 13px);
 font-family: 'Arsenal';
 font-style: normal;
 font-weight: 400;
-font-size: 60px;
+font-size: 30px;
 line-height: 75px;
 display: flex;
 align-items: center;
@@ -39,44 +40,27 @@ color: #FFFFFF;
 border: 1px solid #FFFFFF;
 
 }
-.bnt1{
+.btn1{
 
     position: absolute;
-width: 221px;
-height: 84px;
-left: 488px;
-top: 632px;
-font-family: 'Arsenal';
-font-style: normal;
-font-weight: 400;
-font-size: 28px;
-line-height: 35px;
-display: flex;
-align-items: center;
-text-align: center;
-
-color: #000000;
-background-color: #FFFFFF;
+    width: 256px;
+    height: 60px;
+    top: 88%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    font-family: Georgia, "Malgun Gothic", serif;
+    font-style: normal;
+    font-style: unset;
 
 }
-.bnt2{
-
+.create{
     position: absolute;
-width: 221px;
-height: 84px;
-left: 730px;
-top: 632px;
-
-background: #D9D9D9;
-border-radius: 10px;
-font-family: 'Arsenal';
-font-style: normal;
-font-weight: 400;
-font-size: 28px;
-line-height: 35px;
-display: flex;
-align-items: center;
-text-align: center;
-
-color: #000000;
+    width: 256px;
+    height: 60px;
+    top: 78%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+    font-family: Georgia, "Malgun Gothic", serif;
+    font-style: normal;
+    font-style: unset;
 }
