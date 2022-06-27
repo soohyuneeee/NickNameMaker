@@ -68,7 +68,8 @@ height: 60px;
 top: 88%;
   left: 50%;
   transform: translate(-50%,-50%);
-  font-family: Georgia, "Malgun Gothic", serif;  font-style: normal;
+  font-family: Georgia, "Malgun Gothic", serif;
+    font-style: normal;
   font-style:unset;
 
 }
