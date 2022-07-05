@@ -1,6 +1,7 @@
 import React from "react";
 import { useLocation } from "react-router-dom";
 import { useNavigate } from 'react-router-dom';
+import { CopyToClipboard } from "react-copy-to-clipboard";
 import './Result.css';
 
 function Result() {
@@ -17,13 +18,14 @@ function Result() {
         let c = parseInt(Math.random() * length)
         return keyword[c];
     }
-    let text = '아직 구현 못했써';
-
+    let wallet=b+' '+getRandomIndex(keyword.length)+' '+a;
     return (
         <section>
             <div className="text3">당신의 닉네임은...</div>
-            <div className="nickName"><span>{b} {getRandomIndex(keyword.length)} {a}</span></div>
-            <button className="btn1" onClick={() => navigator.clipboard.writeText(this.state.text)}>복사하기</button>
+            <div className="nickName"><span>{wallet}</span></div>
+            <CopyToClipboard text={wallet} onCopy={() => alert("닉네임이 복사되었습니다")}>
+                <button className="btn1">복사하기</button>
+            </CopyToClipboard>
             <button className='goHome' onClick={() => {
                 navigate('/')
             }}>홈으로</button>
