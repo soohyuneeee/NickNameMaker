@@ -8,6 +8,8 @@
 * [x] add css
 * [x] draw icon
 * [x] copy to clipboard
+* [ ] alert for try to move on to the next page when non-text
+* [ ] text is so close with border
 <br>
 💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜
 <br>
@@ -19,3 +21,4 @@
 ![image](https://user-images.githubusercontent.com/80656686/175921893-aefad446-193d-4729-9f76-6b562698f158.png)
 <br>
 --------------------------------------------------------------------------------------------------------------
+**Copy to Clipboard is not ready yet**
