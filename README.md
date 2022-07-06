@@ -1,6 +1,6 @@
 <h1>#2114 조수현</h1><br>
 https://name-puce.vercel.app/  <br>
-💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜
+💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜<br>
 * [x] Router (/, /maker, /result)
 * [x] onClick -> navigate
 * [x] navigate { state : { name : value } } -> location
