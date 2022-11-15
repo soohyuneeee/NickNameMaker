@@ -1,22 +1,26 @@
-import React, { useState } from "react";
+import React, { useState , useRef } from "react";
 import { useNavigate } from "react-router-dom";
 import styled from "styled-components"
 
 
+
 function Login() {
+    const idInput = useRef()
+    const PwdInput = useRef()
+    
     let navigate = useNavigate()
     let [id, setid] = useState("")
     let [password, setpassword] = useState("")
     function check(id, password){
         if(id.length==0){
           alert("아이디를 입력해 주세요")
-          id.focus()
+          idInput.current.focus()//왜 않되
           // document.getElementsByClassName('text1').focus()
           return false
         }
         else if(password.length==0){
           alert("비밀번호를 입력해 주세요")
-          password.focus()
+          PwdInput.current.focus()
         //   document.getElementsByClassName('text2').focus()
           return false
         }
