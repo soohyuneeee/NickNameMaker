@@ -18,7 +18,7 @@ function Result() {
         let c = parseInt(Math.random() * length)
         return keyword[c];
     }
-    let wallet=b+' '+getRandomIndex(keyword.length)+' '+a;
+    let wallet = b + ' ' + getRandomIndex(keyword.length) + ' ' + a;
     return (
         <section>
             <div className="text3">당신의 닉네임은...</div>
@@ -27,8 +27,8 @@ function Result() {
                 <button className="btn1">복사하기</button>
             </CopyToClipboard>
             <button className='goHome' onClick={() => {
-                navigate('/')
-            }}>홈으로</button>
+                window.location.reload();
+            }}>새로고침</button>
         </section>
 
 
