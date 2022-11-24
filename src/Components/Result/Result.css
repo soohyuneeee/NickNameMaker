@@ -18,6 +18,7 @@
     color: #FFFFFF;
     margin: 0 auto;
     margin-top: 10%;
+    
 }
 
 .nickName {
@@ -36,6 +37,7 @@
     color: black;
     border: 1px solid #FFFFFF;
     background-color: white;
+    border-radius: 20px;
 }
 
 .nickName span {

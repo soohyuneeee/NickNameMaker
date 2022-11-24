@@ -5,39 +5,48 @@ import styled from "styled-components"
 
 function Login(){
     return(
+        <Contain>
         <Dogin>
-            <Text>
-                <input type="text" style={{height:"10%" ,width:"100%"}}></input>
-                <input type="text"style={{height:"10%",width:"100%"}}></input>
+            <img src={"../../../public/android-icon-96x96.png"}/>
+            <Text><b><span>아이디를 입력해 주세요.</span></b>
+                <input type="text" style={{height:"10%" ,width:"100%",paddingLeft:"10px",borderRadius:"10px"}}></input>
+                <b><span>비밀번호를 입력해 주세요.</span></b>
+                <input type="password"style={{height:"10%",width:"100%",paddingLeft:"10px",borderRadius:"10px"}}></input>
             </Text>
             <Button>
             <Button1>로그인하기</Button1>
             <Button2>회원가입 하기</Button2>
             </Button>
             <Without>로그인 하지 않고 시작하기</Without>
-        </Dogin>
+        </Dogin></Contain>
     )
 }
 export default Login;
+const Contain = styled.div`
+    margin-top: 5%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+`
 const Dogin = styled.div`
     display:flex;
-    align-items:flex-end;
+    flex-direction: column;
+    align-items:center;
     justify-content: center;
     background-color:white;
-    position:fixed;
     width:60%;
     height:70ex;
-    left:50%;
-    top:20%;
-    transform: translateX(-50%); 
     border-radius:10px;
+    
 `;
 const Button = styled.div`
     display:inline-flex;
     justify-content: center;
     gap: 20px;
     align-items: center;
-    margin-bottom:9%;
+    margin-bottom:3%;
 `
 const Button1 = styled.button`
     border:0;
@@ -80,7 +89,6 @@ const Form = styled.div`
 
 `
 const Without = styled.div`
-    position:fixed;
     display:flex;
     justify-content:center;
     color:gray;
@@ -93,13 +101,12 @@ const Without = styled.div`
     }
 `
 const Text = styled.div`
-    position:fixed;
     display: inline-flex;
     justify-content:center;
     flex-direction:column;
-    top:20%;
     width:50%;
     height:50%;
     vertical-align:middle;
-    gap: 30%;
+    gap: 20px;
+    margin-bottom:40px;
 `

@@ -17,8 +17,6 @@ h1 {
 }
 
 .headera {
-    position: sticky;
-    top: 0;
     width: 100vw;
     height: 13vh;
     display: flex;

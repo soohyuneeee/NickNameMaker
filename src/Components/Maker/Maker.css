@@ -26,6 +26,7 @@ body {
   display: flex;
   align-items: center;
   color: white;
+  
 }
 
 .text2 {
@@ -48,7 +49,7 @@ body {
   position: absolute;
   border: none;
   letter-spacing: 2.2px;
-  border-radius: 5px;
+  border-radius: 20px;
   width: 708px;
   height: 64px;
   top: 40%;
@@ -56,14 +57,14 @@ body {
   font-family: 'InfinitySans-RegularA1';
   font-size: 18px;
   transform: translate(-50%, -50%);
-  background: #D9D9D9;
+  padding-left: 15px;
 }
 
 .locate {
   position: absolute;
   border: none;
   letter-spacing: 2.2px;
-  border-radius: 5px;
+  border-radius: 20px;
   width: 708px;
   height: 64px;
   top: 68%;
@@ -71,7 +72,8 @@ body {
   font-size: 18px;
   font-family: 'InfinitySans-RegularA1';
   transform: translate(-50%, -50%);
-  background: #D9D9D9;
+  padding-left: 15px;
+  box-decoration-break: clone;
 }
 
 .create {
@@ -98,4 +100,10 @@ body {
 .create:hover {
   letter-spacing: 2px;
   cursor: pointer;
+}
+input:focus {
+  outline: none;
+}
+textarea:focus {
+  outline: none;
 }
