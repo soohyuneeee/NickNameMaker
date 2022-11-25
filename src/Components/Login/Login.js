@@ -9,7 +9,7 @@ function Login() {
             <Dogin>
                 <h2 style={{ fontSize: "30px", marginTop: "50px" }}><b>Login</b></h2>
                 <Text><b><span>아이디를 입력해 주세요.</span></b>
-                    <input type="text" style={{ height: "10%", width: "100%", paddingLeft: "10px", borderRadius: "10px" }}></input>
+                    <input type="text" autoFocus style={{ height: "10%", width: "100%", paddingLeft: "10px", borderRadius: "10px" }}></input>
                     <b><span>비밀번호를 입력해 주세요.</span></b>
                     <input type="password" style={{ height: "10%", width: "100%", paddingLeft: "10px", borderRadius: "10px" }}></input>
                 </Text>
