@@ -7,9 +7,9 @@ function Header() {
     return (
         <header className="headera">
             <div className="icon"></div>
-            <h1 onClick={() => {
+            <b><h1 onClick={() => {
                 navigate('/')
-            }}>NICKNAME GENERATOR</h1>
+            }}>NICKNAME GENERATOR</h1></b>
             
         </header>
     )
