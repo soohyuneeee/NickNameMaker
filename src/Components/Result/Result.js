@@ -20,16 +20,17 @@ function Result() {
     }
     let wallet = b + ' ' + getRandomIndex(keyword.length) + ' ' + a;
     return (
-        <section>
+        <div className="dov">
             <div className="text3">당신의 닉네임은...</div>
             <div className="nickName"><span>{wallet}</span></div>
-            <CopyToClipboard text={wallet} onCopy={() => alert("닉네임이 복사되었습니다")}>
-                <button className="btn1">복사하기</button>
-            </CopyToClipboard>
-            <button className='goHome' onClick={() => {
-                window.location.reload();
-            }}>새로고침</button>
-        </section>
+            <div className="span">
+                <CopyToClipboard text={wallet} onCopy={() => alert("닉네임이 복사되었습니다")}>
+                    <button className="btn1">복사하기</button>
+                </CopyToClipboard>
+                <button className='goHome' onClick={() => {
+                    window.location.reload();
+                }}>새로고침</button></div>
+        </div>
 
 
     )

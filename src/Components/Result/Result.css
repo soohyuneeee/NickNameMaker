@@ -5,7 +5,18 @@
     font-style: normal;
 }
 
+.dov {
+    display: flex;
+    justify-content: center;
+    height: 87vh;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
 .text3 {
+
     width: 881px;
     height: 57px;
     left: calc(50% - 881px/2 - 0.5px);
@@ -13,25 +24,32 @@
     font-weight: normal;
     font-size: 50px;
     line-height: 60px;
-    display: inline-block;
+    display: flex;
     text-align: center;
     color: #FFFFFF;
     margin: 0 auto;
-    margin-top: 10%;
-    
+
+}
+
+html {
+    width: 100vw;
+    height: 100vh;
+}
+
+.span {
+    display: flex;
+    gap: 20px;
 }
 
 .nickName {
-    position: absolute;
-    width: 881px;
-    height: 92px;
-    left: calc(50% - 881px/2 - 0.5px);
-    top: calc(50% - 92px/2 + 13px);
+    display: flex;
+    justify-content: center;
+    width: 74%;
+    height: 25%;
     font-family: 'InfinitySans-RegularA1';
     font-weight: normal;
     font-size: 25px;
     line-height: 75px;
-    display: flex;
     align-items: center;
     text-align: center;
     color: black;
@@ -42,16 +60,13 @@
 
 .nickName span {
     text-align: center;
-    margin: 0 auto;
 }
 
 .btn1 {
-    position: absolute;
     width: 256px;
     height: 60px;
     top: 78%;
     left: 40%;
-    transform: translate(-50%, -50%);
     font-family: 'InfinitySans-RegularA1';
     font-style: normal;
     font-style: unset;
@@ -68,15 +83,12 @@
 }
 
 .goHome {
-    position: absolute;
     width: 256px;
     height: 60px;
     top: 78%;
     left: 60%;
-    transform: translate(-50%, -50%);
     font-family: 'InfinitySans-RegularA1';
     font-style: normal;
-    font-style: unset;
     font-size: 18px;
     border: none;
     padding: 15px 30px;
@@ -92,9 +104,11 @@
 .goHome:hover {
     letter-spacing: 2px;
     cursor: pointer;
+    transform: scale(1.02);
 }
 
 .btn1:hover {
     letter-spacing: 2px;
     cursor: pointer;
+    transform: scale(1.02);
 }
