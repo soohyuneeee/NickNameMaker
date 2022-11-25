@@ -5,6 +5,7 @@ import Home from './Components/Home/Home';
 import Result from './Components/Result/Result';
 import Header from './Components/Header/Header';
 import Login from './Components/Login/Login.js';
+import Signup from './Components/Signup/Signup';
 
 class App extends Component {
   render() {
@@ -16,6 +17,7 @@ class App extends Component {
           <Route path="/maker" element={<Maker />} />
           <Route path="/result" element={<Result />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/signup" element={<Signup />} />
         </Routes>
       </Router>
     )
