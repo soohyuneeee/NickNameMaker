@@ -10,7 +10,7 @@ function Header() {
             <b><h1 onClick={() => {
                 navigate('/')
             }}>NICKNAME GENERATOR</h1></b>
-            
+
         </header>
     )
 }
