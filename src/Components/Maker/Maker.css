@@ -64,8 +64,8 @@ body {
   border: none;
   letter-spacing: 2.2px;
   border-radius: 20px;
-  width: 708px;
-  height: 64px;
+  width: 48%;
+  height: 7.8%;
   font-family: 'InfinitySans-RegularA1';
   font-size: 18px;
   padding-left: 15px;
@@ -75,8 +75,8 @@ body {
   border: none;
   letter-spacing: 2.2px;
   border-radius: 20px;
-  width: 708px;
-  height: 64px;
+  width: 48%;
+  height: 7.8%;
   font-size: 18px;
   font-family: 'InfinitySans-RegularA1';
   padding-left: 15px;
@@ -84,8 +84,9 @@ body {
 }
 
 .create {
-  width: 256px;
-  height: 60px;
+  margin-top: 30px;
+  width: 15%;
+  height: 8%;
   font-family: 'InfinitySans-RegularA1';
   font-style: normal;
   font-size: 15px;

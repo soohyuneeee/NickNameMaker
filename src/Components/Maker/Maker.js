@@ -5,7 +5,8 @@ import './Maker.css'
 function check(name, locate){
   if(name.length==0){
     alert("닉네임")
-    document.getElementsByClassName('text1').focus()
+    name.focus()
+    // document.getElementsByClassName('text1').focus()
     return false
   }
   else if(locate.length==0){
