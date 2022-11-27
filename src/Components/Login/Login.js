@@ -1,21 +1,59 @@
-import React from "react";
-import { Navigate, useNavigate } from 'react-router-dom';
+import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import styled from "styled-components"
 
 
 function Login() {
+    let navigate = useNavigate()
+    let [id, setid] = useState("")
+    let [password, setpassword] = useState("")
+    function check(id, password){
+        if(id.length==0){
+          alert("아이디를 입력해 주세요")
+          id.focus()
+          // document.getElementsByClassName('text1').focus()
+          return false
+        }
+        else if(password.length==0){
+          alert("비밀번호를 입력해 주세요")
+          password.focus()
+        //   document.getElementsByClassName('text2').focus()
+          return false
+        }
+        else return true
+      }
+
     return (
         <Contain>
             <Dogin>
                 <h2 style={{ fontSize: "30px", marginTop: "50px" }}><b>Login</b></h2>
                 <Text><b><span>아이디를 입력해 주세요.</span></b>
-                    <input type="text" autoFocus style={{ height: "10%", width: "100%", paddingLeft: "10px", borderRadius: "10px" }}></input>
+                    <input type="text" autoFocus style={
+                        {
+                            height: "10%", width: "100%", paddingLeft: "10px", borderRadius: "10px"
+                        }} onChange={(event) => {
+                            setid(event.target.value);
+                        }}>
+                    </input>
                     <b><span>비밀번호를 입력해 주세요.</span></b>
-                    <input type="password" style={{ height: "10%", width: "100%", paddingLeft: "10px", borderRadius: "10px" }}></input>
+                    <input type="password" style={
+                        {
+                            height: "10%", width: "100%", paddingLeft: "10px", borderRadius: "10px"
+                        }} onChange={(event) => {
+                            setpassword(event.target.value)
+                        }}>
+                    </input>
                 </Text>
+                <Dav></Dav>
                 <Button>
-                    <Button1>로그인하기</Button1>
-                    <Button2>회원가입 하기</Button2>
+                    <Button1 onClick={() => {
+                        if(check(id,password)){
+
+                        }
+                    }}>로그인하기</Button1>
+                    <Button2 onClick={() => {
+                        navigate('signup')
+                    }}>회원가입 하기</Button2>
                 </Button>
                 <Without><a href="/maker" style={{ textDecoration: "none", color: "gray" }}>로그인 하지 않고 시작하기</a></Without>
             </Dogin></Contain>
@@ -66,6 +104,7 @@ const Button1 = styled.button`
         cursor: pointer;
         letter-spacing: 0.1vw;
         transform: scale(1.1);
+        background-color:#ffc0cb
     }
 
 `;
@@ -84,6 +123,7 @@ const Button2 = styled.button`
         cursor: pointer;
         letter-spacing: 0.1vw;
         transform: scale(1.1);
+        background-color:#996666;
     }
 
 `;
@@ -113,4 +153,7 @@ const Text = styled.div`
     vertical-align:middle;
     gap: 20px;
     margin-bottom:40px;
+`
+const Dav = styled.div`
+
 `
