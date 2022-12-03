@@ -11,6 +11,7 @@ function Login() {
     let navigate = useNavigate()
     let [id, setid] = useState("")
     let [password, setpassword] = useState("")
+    
     function check(id, password){
         if(id.length==0){
           alert("아이디를 입력해 주세요")
@@ -56,7 +57,7 @@ function Login() {
                         }
                     }}>로그인하기</Button1>
                     <Button2 onClick={() => {
-                        navigate('signup')
+                        navigate('/signup')
                     }}>회원가입 하기</Button2>
                 </Button>
                 <Without><a href="/maker" style={{ textDecoration: "none", color: "gray" }}>로그인 하지 않고 시작하기</a></Without>
