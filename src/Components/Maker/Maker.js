@@ -4,13 +4,13 @@ import './Maker.css'
 
 function check(name, locate){
   if(name.length==0){
-    alert("닉네임")
+    alert("닉네임을 입력해 주세요")
     name.focus()
     // document.getElementsByClassName('text1').focus()
     return false
   }
   else if(locate.length==0){
-    alert("지역")
+    alert("지역을 입력해 주세요")
     document.getElementsByClassName('text2').focus()
     return false
   }
