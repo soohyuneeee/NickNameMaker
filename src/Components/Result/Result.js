@@ -1,13 +1,15 @@
-import React from "react";
+import { React, useState } from "react";
 import { useLocation } from "react-router-dom";
 import { useNavigate } from 'react-router-dom';
 import { CopyToClipboard } from "react-copy-to-clipboard";
 import './Result.css';
 
-function Result() {
+function Result(items) {
 
     let navigate = useNavigate();
     const location = useLocation();
+    let [like, setLike] = useState();
+    let isBackgroundRed = false
 
     const name = location.state.name;
     const locate = location.state.locate;
@@ -21,6 +23,7 @@ function Result() {
     let nickName = locate + ' ' + getRandomIndex(keyword.length) + ' ' + name;
     return (
         <div className="dov">
+
             <div className="text3">당신의 닉네임은...</div>
             <div className="nickName"><span>{nickName}</span></div>
             <div className="span">
@@ -29,7 +32,14 @@ function Result() {
                 </CopyToClipboard>
                 <button className='refresh' onClick={() => {
                     window.location.reload();
-                }}>새로고침</button></div>
+                }}>새로고침</button>
+            </div>
+            <div className="like" onClick={() => {
+                isBackgroundRed = !isBackgroundRed
+                console.log(isBackgroundRed)
+            }}
+            > ❤️ </div>
+
         </div>
 
 

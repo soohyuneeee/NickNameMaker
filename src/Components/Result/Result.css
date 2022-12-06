@@ -114,3 +114,7 @@ html {
     cursor: pointer;
     transform: scale(1.02);
 }
+.like {
+    width: 100px;
+    height: 100px;
+}
