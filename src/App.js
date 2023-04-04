@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'; //React-Router import
-import Maker from './Components/Maker/Maker';
-import Home from './Components/Home/Home';
-import Result from './Components/Result/Result';
-import Header from './Components/Header/Header';
-import Login from './Components/Login/Login.js';
-import Signup from './Components/Signup/Signup';
+import Maker from './Components/pages/Maker/Maker';
+import Home from './Components/pages/Home/Home';
+import Result from './Components/pages/Result/Result';
+import Header from './Components/pages/Header/Header';
+import Login from './Components/pages/Login/Login.js';
+import Signup from './Components/pages/Signup/Signup';
 
 class App extends Component {
   render() {
